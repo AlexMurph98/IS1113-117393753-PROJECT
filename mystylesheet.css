@@ -10,12 +10,6 @@
     
 }
 
-body {
-    background: url(https://static.pexels.com/photos/459225/pexels-photo-459225.jpeg) no-repeat;
-    background-size: cover;
-    font-family: arial;
-    color: white;
-}
 
 ul {
     margin: 0px;
@@ -61,16 +55,17 @@ ul li:hover ul li {
  }
  
  .navigation{
-     height: 40px;
+     height: 60px;
      width: 1440px;
  }
  
  .content{
-     min-height: 400px;
+     min-height: 540px;
  }
  
  .footer{
      height: 40px;
      color: black;
      text-align: center;
+     font-size: large;
  }

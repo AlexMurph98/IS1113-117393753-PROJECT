@@ -1,16 +1,25 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+    background: url(https://www.fattiretours.com/uploads/2208/barcelona%20hero.png) no-repeat;
+    background-size: cover;
 }
 
 #section2{
-    background-color: rgb(44, 62, 80);
+    background: url(http://www.worldfortravel.com/wp-content/uploads/2015/05/Old-City-Stockholm-Sweden.jpg) no-repeat;
+    background-size: cover;
+    
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background: url(http://www.tripstory.org/wp-content/uploads/2017/12/New-York-1.jpg) no-repeat;
+    background-size: cover;
+    
 }
 
 .section{
     text-align: center;
-    color: white;
+    text-shadow: 3px 2px yellow;
+    font-size: xx-large;
+    text-decoration: underline;
+    
 }
+
