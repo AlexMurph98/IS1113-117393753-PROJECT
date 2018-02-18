@@ -4,7 +4,7 @@ function calcSub(){
     
     var argSubTotal; 
     
-    if(document.getElementById('salesforce').checked){
+    if(document.getElementById('salesforce').checked) {
     argSubTotal=100;
 }
     else{ 
@@ -14,19 +14,24 @@ function calcSub(){
     display(argSubTotal);
 }
 
-function display(parm1){
+function display(parm1) {
     
     document.getElementById("subtotal").value= parm1;
     document.getElementById("total").value= parm1;
     
-    enablebtnProceed();
+        
+
+    
+    $('#btnProceed').prop('disabled', false);
     
     
-}   
-function enablebtnProceed(){
-    $('#btnProceed').prop('disabled',false);
+}  
+
+function enablebtnProceed() {
+    $('#btnProceed').prop('disabled', false);
     
 } 
-function enablebtnProceed(){
-    $('#btnProceed').prop('disabled',true); 
+
+function disablebtnProceed() {
+    $('#btnProceed').prop('disabled', true); 
 } 

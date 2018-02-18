@@ -77,3 +77,10 @@ ul li:hover ul li {
      text-align: center;
      color: black;
  }
+ 
+ .contentcloud {
+     text-align: left;
+     color: black;
+     min-height: 540px;
+    
+ }

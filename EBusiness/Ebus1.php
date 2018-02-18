@@ -5,8 +5,8 @@
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
         
         <!--jQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_calc.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="calcost.js"></script>
         
     </head>
     
@@ -19,11 +19,12 @@
         <br/>
         <div class="navigation">
        <ul>
-         <li><a href="homepage.html">Home</a></li>
+         <li><a href="../homepage.html">Home</a></li>
          <li><a>My Information</a>
             <ul>
-                <li><a href="CV/cv_page1.html">Curriculum Vitae</a></li>
-                <li><a href="interests/sports.html">Interests</a></li>
+                <li><a href="../CV/cv_page1.html">Curriculum Vitae</a></li>
+                <li><a href="../interests/sports.html">Interests</a></li>
+                <li><a href="../interests/cloud.html">Cloud Services</a></li>
             </ul>
          </li>
          <li><a>Cloud Store</a>
