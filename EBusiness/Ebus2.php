@@ -37,8 +37,8 @@ session_start();
          </li>
        </ul>
        </div>
-       <div class="content" style="color=black">
-         
+       <div class="contentcvpages" style="color=black">
+         <br/> <br/>
        <h4>Please enter your payment details</h4>
         
         

@@ -36,7 +36,7 @@
        </ul>
        </div>
        <br/> <br/>
-       <div class="content" style="color=black">
+       <div class="contentcvpages">
          
                  <h4>Select a Product</h4>
             
@@ -49,7 +49,7 @@
                     SalesForce @ $100
                 </label>
                 
-                <br/>
+                <br/> <br/>
                 
                 <label for="aws">
                     <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
@@ -64,14 +64,14 @@
                     <input type="text" id="subtotal" value="0.00" readonly/>
                 </label>
                 
-                <br/>
+                <br/> <br/>
                 
                 <label for="total">
                     Total
                     <input type="hidden" id="total" name="total" value="0.00" readonly/>
                 </label>
                 
-                <br/>
+                <br/> <br/>
                 
                 <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
                 
