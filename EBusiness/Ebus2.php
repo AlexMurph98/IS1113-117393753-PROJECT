@@ -35,6 +35,8 @@ session_start();
             </ul>
          
          </li>
+         <li><a href="https://github.com/AlexMurph98/IS1113-117393753-PROJECT" target="_blank">Github</a></li>
+         <li><a href="../AboutCloud.html">About Cloud</a></li>
        </ul>
        </div>
        <div class="contentcvpages" style="color=black">
