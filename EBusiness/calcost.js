@@ -1,5 +1,6 @@
 /* global $ */
 
+
 function calcSub(){
     
     var argSubTotal; 
@@ -17,18 +18,35 @@ function calcSub(){
          argSubTotal=400;
      }
      
-     
+    
     display(argSubTotal);
+    calcDisVatTotal(argSubTotal);
 }
 
-function calcDisVatTotal(){
+function calcDisVatTotal(parmsubtotal){
+    
+    var vatrate=0.1;
+    var discount=0.05;
+    var vat;
+    var discount;
+    var subtotal;
+    var total;
+    
+    subtotal = parmsubtotal;
+    vat = (parmsubtotal * vatrate);
+    discount = (parmsubtotal * discount);
+    total = (parmsubtotal + vat - discount);
+    
+    display(subtotal, discount, vat, total);
     
 }
 
-function display(parm1) {
+function display(parm1, parm2, parm3, parm4) {
     
     document.getElementById("subtotal").value= parm1;
-    document.getElementById("total").value= parm1;
+    document.getElementById("discount").value= parm2;
+    document.getElementById("vat").value= parm3;
+    document.getElementById("total").value= parm4;
     
         
 
