@@ -13,5 +13,21 @@ session_start();
         // Echo session variables that were set on previous page
         echo "Total is " . $_SESSION["total"] . ".";
         ?>
+        <br/>
+         <?php
+        echo "First Name is " . $_POST["firstname"] . ".";
+        ?>
+        <br/>
+        <?php
+        echo "E-mail is " . $_POST["email"] . ".";
+        ?>
+        <br/>
+        <?php
+        echo "Cardname is " . $_POST["cardname"] . ".";
+        ?>
+        <br/>
+        <?php
+        echo "Card Number is " . $_POST["cardnumber"] . ".";
+        ?>
     </body>
 </html>

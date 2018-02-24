@@ -12,11 +12,9 @@
     
     <body>
         
-        <div class="heading">
-        <h1 class="mainheading">117393753 - IS1113 Project!</h1>
-        <h4 class="subheading">Use The Navigation Bar Below For Easy Access.</h4>
+        <div class="headingEbus1">
+        <h1 class="mainheading">EBusiness</h1>
         </div>
-        <br/>
         <div class="navigation">
        <ul>
          <li><a href="../homepage.html">Home</a></li>
