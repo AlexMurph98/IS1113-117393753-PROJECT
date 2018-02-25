@@ -9,13 +9,9 @@ session_start();
     <body>
         <h4>RECEIPT</h4>
                 
+        
         <?php
-        // Echo session variables that were set on previous page
-        echo "Total is " . $_SESSION["total"] . ".";
-        ?>
-        <br/>
-         <?php
-        echo "First Name is " . $_POST["firstname"] . ".";
+        echo "First Name is " . $_POST["fullname"] . ".";
         ?>
         <br/>
         <?php
@@ -23,11 +19,9 @@ session_start();
         ?>
         <br/>
         <?php
-        echo "Cardname is " . $_POST["cardname"] . ".";
+        echo "Total is " . $_SESSION["total"] . ".";
         ?>
         <br/>
-        <?php
-        echo "Card Number is " . $_POST["cardnumber"] . ".";
-        ?>
+        
     </body>
 </html>

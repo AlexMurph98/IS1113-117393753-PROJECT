@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Cloud</title>
+        <!--Adding the css file-->
+        <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <style>
+            .sidenav {
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+        </style>
+    </head>
+    <body>
+        <div class="heading">
+        <h1 class="mainheading">117393753 - IS1113 Project!</h1>
+        <h4 class="subheading">Use The Navigation Bar Below For Easy Access.</h4>
+        </div>
+        <br/>
+        <div class="navigation">
+       <ul>
+         <li><a href="homepage.html">Home</a></li>
+         <li><a>My Information</a>
+            <ul>
+                <li><a href="CV/cv_page1.html">Curriculum Vitae</a></li>
+                <li><a href="interests/sports.html">Interests</a></li>
+                <li><a href="interests/cloud.html">Cloud Services</a></li>
+            </ul>
+         </li>
+         <li><a>Cloud Store</a>
+            <ul>
+                <li><a href="EBusiness/Ebus1.php">EBusiness</a></li>
+            </ul>
+         </li>
+         <li><a href="https://github.com/AlexMurph98/IS1113-117393753-PROJECT" target="_blank">Github</a></li>
+         <li><a href="AboutCloud.html">About Cloud</a></li>
+       </ul>
+       </div>
+       <div class="sidenav">
+          <a href="AboutCloud.html">Software as a Service</a>
+          <br/> <br/> 
+          <a href="IaaS.html">Infrastructure as a Service</a>
+          <br/> <br/> 
+          <a href="PaaS.html">Platform as a Service</a>
+          <br/> <br/> 
+          <a href="CaaS.html">Communication as a Serice</a>
+        </div>
+       <div class="main">
+           <h1 class="mainheading">Infrastructure as a Service(IaaS) - Amazon</h1>
+           <p>
+               Infrastructure as a service (IaaS) is a form of cloud computing that provides virtualized computing resources over the internet.
+               <br/> <br/>
+               <strong>IaaS architecture and how it works</strong> <br/>
+               In an IaaS model, a cloud provider hosts the infrastructure components traditionally present in an on-premises data center, including servers,
+               storage and networking hardware, as well as the virtualization or hypervisor layer. The IaaS provider also supplies a range of services to accompany
+               those infrastructure components. These can include detailed billing, monitoring, log access, security, load balancing and clustering, as well as storage resiliency,
+               such as backup, replication and recovery. These services are increasingly policy-driven, enabling IaaS users to implement greater levels of automation and orchestration
+               for important infrastructure tasks. For example, a user can implement policies to drive load balancing to maintain application availability and performance.
+               <br/> <br/>
+               <strong>IaaS Pros & Cons</strong> <br/>
+               Organizations choose IaaS because it is often easier, faster and more cost-efficient to operate a workload without having to buy, manage and support the underlying infrastructure.
+               With IaaS, a business can simply rent or lease that infrastructure from another business.
+               IaaS is an effective model for workloads that are temporary, experimental or that change unexpectedly. For example, if a business is developing a new software product, it might be more cost-effective to 
+               host and test the application using an IaaS provider. Once the new software is tested and refined, the business can remove it from the IaaS environment for a more traditional,
+               in-house deployment. Conversely, the business could commit that piece of software to a long-term IaaS deployment, where the costs of a long-term commitment may be less.
+               In general, IaaS customers pay on a per use basis, typically by the hour, week or month. Some IaaS providers also charge customers based on the amount of virtual machine space they use. This pay-as-you-go model 
+               eliminates the capital expense of deploying in-house hardware and software.
+           </p>
+           <br/>
+           <p>
+               All of the above information was sourced from <a href="http://searchcloudcomputing.techtarget.com/definition/Infrastructure-as-a-Service-IaaS">http://searchcloudcomputing.techtarget.com/definition/Infrastructure-as-a-Service-IaaS</a>
+           </p>
+           
+        </div>
+        <br/>
+       <div class="footer" style="color=black">
+         This was created by Alex Murphy, 117393753, BIS 1.
+       </div>
+    </body>
+</html>

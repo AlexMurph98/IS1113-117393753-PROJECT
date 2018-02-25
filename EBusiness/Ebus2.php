@@ -144,8 +144,8 @@ session_start();
         
           <div class="col-50">
             <h4>Billing Address</h4>
-            <label for="fname">Full Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="John M. Doe">
             <label for="email">Email</label>
             <input type="text" id="email" name="email" placeholder="john@example.com">
             </div>
@@ -154,9 +154,9 @@ session_start();
           <div class="col-50">
             <h4>Payment</h4>
             <label for="cname">Name on Card</label>
-            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <input type="text" id="cname" name="cname" placeholder="John More Doe">
             <label for="ccnum">Credit card number</label>
-            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <input type="text" id="ccnum" name="ccnumb" placeholder="1111-2222-3333-4444">
             <label for="expmonth">Exp Month</label>
             <input type="text" id="expmonth" name="expmonth" placeholder="September">
 

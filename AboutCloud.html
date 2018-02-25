@@ -4,8 +4,44 @@
         <title>About Cloud</title>
         <!--Adding the css file-->
         <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        
+        <style>
+            .sidenav {
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+        </style>
     </head>
     <body>
         <div class="heading">
@@ -32,11 +68,46 @@
          <li><a href="AboutCloud.html">About Cloud</a></li>
        </ul>
        </div>
-       <div class="content" style="color=black">
+       <div class="sidenav">
+          <a href="AboutCloud.html">Software as a Service</a>
+          <br/> <br/> 
+          <a href="IaaS.html">Infrastructure as a Service</a>
+          <br/> <br/> 
+          <a href="PaaS.html">Platform as a Service</a>
+          <br/> <br/> 
+          <a href="CaaS.html">Communication as a Serice</a>
+        </div>
+       <div class="main">
            <h1 class="mainheading">Software as a Service(SaaS) - Salesforce</h1>
            <p>
                Software as a service (SaaS) is a software distribution model in which a third-party provider hosts applications and makes them available to customers over the Internet. 
-               SaaS is one of three main categories of cloud computing, alongside infrastructure as a service (IaaS) and platform as a service (PaaS).
+               SaaS is one of four main categories of cloud computing, alongside infrastructure as a service (IaaS), platform as a service (PaaS) and also communication as a service (CaaS).
+               <br/> <br/>
+               SaaS removes the need for organizations to install and run applications on their own computers or in their own data centers. This eliminates the expense of hardware acquisition, 
+               provisioning and maintenance, as well as software licensing, installation and support. Other benefits of the SaaS model include:
+               <br/>
+               <strong>Flexible Payments:</strong>Rather than purchasing software to install, or additional hardware to support it, customers subscribe to a SaaS offering. Generally, 
+               they pay for this service on a monthly basis using a pay-as-you-go model. This makes it easier for consumers to afford this service.
+               <br/>
+               <strong>Scalabe Usage:</strong>Cloud services like SaaS offer high scalability, which gives customers the option to access more, or fewer, services or features on-demand.
+               <br/>
+               <strong>Automatic Updates:</strong>Rather than purchasing new software, customers can rely on a SaaS provider to automatically perform updates and patch management. 
+               This further reduces the burden on in-house IT staff, making it as efficient as possible.
+               <br/>
+               <strong>Accessibilty and Persistance:</strong>Since SaaS applications are delivered over the Internet, users can access them from any Internet-enabled device and location.
+               Again adding efficiency to the service.
+               
+           </p>
+           <br/>
+           <p>
+              <strong>However like everything else, Saas also has its disadvantages.</strong><br/>
+              Businesses must rely on outside vendors to provide the software, keep that software up and running, track and report accurate billing and facilitate a secure environment for the business' data. 
+              Providers that experience service disruptions, impose unwanted changes to service offerings, experience a security breach or any other issue can have a profound effect on the customers'
+              ability to use those SaaS offerings. As a result, users should understand their SaaS provider's service-level agreement, and make sure it is enforced.
+           </p>
+           <br/>
+           <p>
+               All of the above information was sourced from <a href="http://searchcloudcomputing.techtarget.com/definition/Software-as-a-Service">https://searchcloudcomputing.techtarget.com/definition/Software-as-a-Service</a>.
            </p>
          
          </div>

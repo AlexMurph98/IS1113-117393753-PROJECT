@@ -3,8 +3,22 @@
 function validateDetails(){
     
     var pin;
+    var fullname;
+    var email;
+    var cardname;
+    var cardnum;
+    var expmonth;
+    var expyear;
+    var cvv;
     
     pin = document.getElementById("user_pin").value;
+    fullname = document.getElementById("fullname").value;
+    email = document.getElementById("email").value;
+    cardname = document.getElementById("cname").value;
+    cardnum = document.getElementById("ccnumb").value;
+    expmonth = document.getElementById("expmonth").value;
+    expyear = document.getElementById("expyear").value;
+    cvv = document.getElementById("cvv").value;
     
     if (pin == ""){
         alert("Please enter your PIN");
@@ -15,7 +29,6 @@ function validateDetails(){
     else{
         enablebtnPurchase();
     }
-    
 }
 
 function enablebtnPurchase(){
