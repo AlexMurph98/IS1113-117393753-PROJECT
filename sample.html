@@ -3,11 +3,14 @@
     <head>
         <title>Cloud Services</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="cloud.css" type="text/css" />
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
         
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <style>
+            body {
+                background: url(http://freephotocourse.com/uploads/3/4/0/2/34026443/2738510_orig.jpg) no-repeat;
+                background-size: cover;
+                }
+        </style>
         
         <!--Page Piling-->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
@@ -20,38 +23,46 @@
                 });
              });
         </script>
-        
-        <style>
-            .buttonhome {
-                background-color: #4CAF50;
-                border: none;
-                color: white;
-                padding: 15px 32px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-                margin: 4px 2px;
-                cursor: pointer;
-                    }
-        </style>
     </head>
     <body>
-        
-           <div id="pagepiling">
-               <div class="section" id="section1">
-                   <h1>Cloud Services</h1>
+        <div class="heading">
+        <h1 class="mainheading">117393753 - IS1113 Project!</h1>
+        <h4 class="subheading">Use The Navigation Bar Below For Easy Access.</h4>
+        </div>
+        <br/>
+        <div class="navigation">
+       <ul>
+         <li><a href="../homepage.html">Home</a></li>
+         <li><a>My Information</a>
+            <ul>
+                <li><a href="../CV/cv_page1.html">Curriculum Vitae</a></li>
+                <li><a href="sports.html">Interests</a></li>
+                <li><a href="cloud.html">Cloud Services</a></li>
+            </ul>
+         </li>
+         <li><a>Cloud Store</a>
+         <ul>
+             <li><a href="../EBusiness/mybus.html">My Company</a></li>
+                <li><a href="../EBusiness/Ebus1.php">EBusiness</a></li>
+            </ul>
+         </li>
+         <li><a href="https://github.com/AlexMurph98/IS1113-117393753-PROJECT" target="_blank">Github</a></li>
+         <li><a href="../AboutCloud.html">About Cloud</a></li>
+       </ul>
+       </div>
+       <div class="contentcloud" style="color=black">
+           
           <p><strong>There are numerous cloud services available on the web including this website, Cloud 9.
             They are very useful as they help store information, documents and apps online. These services are utilised by most major companies today with security on these cloud services being a major issue.
             With the ever growing problem of hacking, cloud services have to ensure security on their sites.
             The various examples of cloud services are Cloud 9, Google Drive, Apple iCloud, Dropbox and many more.</strong>
           </p>
-          </div>
-          
-          <div class="section" id="section2">
+          <br/>
+          <div style="text-align:center;">
           <a href="https://aws.amazon.com/cloud9/" target="_blank">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Cloud9IDE.png/260px-Cloud9IDE.png" alt="Cloud 9 Logo">
           </a>
+          </div>
           <p>
               Cloud 9 was founded in 2010 and was a privately held company, however on July 14, 2016 it had been acquired by Amazon.
              AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. 
@@ -64,13 +75,13 @@
              Your Cloud 9, Github and Heroku accounts are all linked. For Heroku to launch the live version of the app you must deploy a branch to your Github account and it is then transferred over.
              These three websites combined allow ease to code and run a live web application.
             </p>
-            </div>
-          
-          <div class="section" id="section3">
+            
+          <br/>
+          <div style="text-align:center;">
           <a href="https://www.google.com/drive/" target="_blank">
           <img src="https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2017/12/google-drive-unlimited-storage.jpg" alt="Google Drive Logo" style="width:300px;height:208px;">
           </a>
-          
+          </div>
           <p>
              Google Drive is a file storage and synchronization service developed by Google. 
              Launched on April 24, 2012, Google Drive allows users to store files on their servers, synchronize files across devices, and share files. 
@@ -85,14 +96,12 @@
              As of March 2017, Google Drive has 800 million active users, and as of September 2015, it has over one million organizational paying users.
              As of May 2017, there are over two trillion files stored on the service.
           </p>
-          </div>
-          
-          <div class="section" id="section4">
+          <br/>
+          <div style="text-align:center;">
           <a href="https://www.icloud.com/" target="_blank">
           <img src="https://www.pcmag.com/sm/pcmagus/photo/default/icloud-logo_hs3h.jpg" alt="Apple iCloud Logo" style="width:300px;height:208px;">
           </a>
-          
-          
+          </div>
           <p>
              iCloud Drive is part of iCloud - Apple's cloud storage service that launched in 2011. 
 
@@ -107,13 +116,12 @@
              This service is secure however major accounts owned by celebrities have been hacked in the past agin emphasising the importance of security in these
              cloud services. Hacking will always be a prominent issue that Apple will have to face.
           </p>
-          </div>
-          
-          <div class="section" id="section5">
+          <br/>
+          <div style="text-align:center;">
           <a href="https://www.dropbox.com/" target="_blank">
           <img src="https://www.irishtimes.com/polopoly_fs/1.3394740.1518802402!/image/image.jpg_gen/derivatives/box_620_330/image.jpg" alt="Dropbox Logo" style="width:300px;height:208px;">
           </a>
-          
+          </div>
           <p>
               Dropbox was founded in June 2007 by Drew Houston and Arash Ferdowsi. It launched in September 2008 as a simple way for people to have their files wherever they are, and share them easily.
               The simplicity of the product combined with the reliability of the sync led consumers to bring Dropbox to work to empower collaboration.
@@ -127,15 +135,17 @@
              Again we see how important Dropbox is in college as some of our tutorials are uploaded to a dropbox account in which we can log in to view the previous tutorials.
              The security of Dropbox has been questioned multiple times but the company states that "the security of your data is our highest priority".
           </p>
-           <a href="../homepage.html" class="buttonhome">Return Home</a>
           
-           </div>
+          
            
            
            
-        
-       
-                
+           
+        </div>
+        <br/> <br/>
+       <div class="footer" style="color=black">
+         This was created by Alex Murphy, 117393753, BIS 1.
+       </div>           
         
     </body>
     

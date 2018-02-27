@@ -124,6 +124,7 @@ session_start();
          </li>
          <li><a>Cloud Store</a>
             <ul>
+                <li><a href="mybus.html">My Company</a></li>
                 <li><a href="EBusiness/Ebus1.php">EBusiness</a></li>
             </ul>
          
@@ -203,6 +204,8 @@ session_start();
             $_SESSION["email"] = $_POST["email"];
             $_SESSION["cname"] = $_POST["cardname"];
             $_SESSION["ccnumb"] = $_POST["cardnumber"];
+            $_SESSION["vat"] = $_POST["vat"];
+            $_SESSION["discount"] = $_POST["discount"];
             ?>
          
        </div>

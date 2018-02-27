@@ -1,0 +1,33 @@
+#section1{
+    background: url(http://freephotocourse.com/uploads/3/4/0/2/34026443/2738510_orig.jpg) no-repeat;
+    background-size: cover;
+}
+
+#section2{
+    background: url(http://freephotocourse.com/uploads/3/4/0/2/34026443/2738510_orig.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+#section3{
+    background: url(http://freephotocourse.com/uploads/3/4/0/2/34026443/2738510_orig.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+#section4{
+    background: url(http://freephotocourse.com/uploads/3/4/0/2/34026443/2738510_orig.jpg) no-repeat;
+    background-size: cover;
+}
+
+#section5{
+    background: url(http://freephotocourse.com/uploads/3/4/0/2/34026443/2738510_orig.jpg) no-repeat;
+    background-size: cover;
+}
+
+.section{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    
+}

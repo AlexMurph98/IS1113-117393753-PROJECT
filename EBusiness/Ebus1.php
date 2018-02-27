@@ -27,6 +27,7 @@
          </li>
          <li><a>Cloud Store</a>
             <ul>
+                <li><a href="mybus.html">My Company</a></li>
                 <li><a href="EBusiness/Ebus1.php">EBusiness</a></li>
             </ul>
          
