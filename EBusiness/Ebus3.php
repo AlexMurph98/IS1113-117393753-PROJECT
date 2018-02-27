@@ -11,15 +11,15 @@ session_start();
                 
         
         <?php
-        echo "First Name is " . $_POST["fullname"] . ".";
+        echo "First Name: " . $_POST["fullname"] . ".";
         ?>
         <br/>
         <?php
-        echo "E-mail is " . $_POST["email"] . ".";
+        echo "E-mail: " . $_POST["email"] . ".";
         ?>
         <br/>
         <?php
-        echo "Total is " . $_SESSION["total"] . ".";
+        echo "Total: " . $_SESSION["total"] . ".";
         ?>
         <br/>
         

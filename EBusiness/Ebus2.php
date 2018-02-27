@@ -199,7 +199,7 @@ session_start();
              <?php
             // Set session variables
             $_SESSION["total"] = $_POST["total"];
-            $_SESSION["firstname"] = $_POST["firstname"];
+            $_SESSION["firstname"] = $_POST["fullname"];
             $_SESSION["email"] = $_POST["email"];
             $_SESSION["cardname"] = $_POST["cardname"];
             $_SESSION["cardnumber"] = $_POST["cardnumber"];
