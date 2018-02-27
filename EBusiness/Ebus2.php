@@ -7,7 +7,7 @@ session_start();
     <head>
           <title>Enter Details</title>
          <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-         
+         <meta charset="utf-8"/>
          <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
@@ -216,7 +216,7 @@ session_start();
         
         
         
-       <div class="footer" style="color=black">
+       <div class="footer">
          This was created by Alex Murphy, 117393753, BIS 1.
        </div>
         

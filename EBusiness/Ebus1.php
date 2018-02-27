@@ -3,7 +3,7 @@
     <head>
         <title>Select Product</title>
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-        
+        <meta charset="utf-8"/>
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="calcost.js"></script>
@@ -115,7 +115,7 @@
          
          
        </div>
-       <div class="footer" style="color=black">
+       <div class="footer">
          This was created by Alex Murphy, 117393753, BIS 1.
        </div>
 

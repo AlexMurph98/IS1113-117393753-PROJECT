@@ -5,7 +5,7 @@ session_start();
 <html>
     <head>
         <title>RECEIPT</title>
-        
+        <meta charset="utf-8"/>
         <style>
             .buttonhome {
                 background-color: #4CAF50;
