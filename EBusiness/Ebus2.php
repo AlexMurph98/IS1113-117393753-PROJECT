@@ -155,8 +155,8 @@ session_start();
             <h4>Payment</h4>
             <label for="cname">Name on Card</label>
             <input type="text" id="cname" name="cname" placeholder="John More Doe">
-            <label for="ccnum">Credit card number</label>
-            <input type="text" id="ccnum" name="ccnumb" placeholder="1111-2222-3333-4444">
+            <label for="ccnumb">Credit card number</label>
+            <input type="text" id="ccnumb" name="ccnumb" placeholder="1111-2222-3333-4444">
             <label for="expmonth">Exp Month</label>
             <input type="text" id="expmonth" name="expmonth" placeholder="September">
 
@@ -167,7 +167,7 @@ session_start();
               </div>
               <div class="col-50">
                 <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv" placeholder="352">
+                <input type="text" id="cvv" name="cvv" placeholder="352" maxlength="3">
                  <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
@@ -182,7 +182,7 @@ session_start();
           </div>
          </form>
          <br/>
-          <button onClick="validateDetails()" class="btnvalidate">Validate</button>
+         <button onClick="validateDetails()" class="btnvalidate">Validate</button>
         </div>
         
         
@@ -199,10 +199,10 @@ session_start();
              <?php
             // Set session variables
             $_SESSION["total"] = $_POST["total"];
-            $_SESSION["firstname"] = $_POST["fullname"];
+            $_SESSION["fullname"] = $_POST["fullname"];
             $_SESSION["email"] = $_POST["email"];
-            $_SESSION["cardname"] = $_POST["cardname"];
-            $_SESSION["cardnumber"] = $_POST["cardnumber"];
+            $_SESSION["cname"] = $_POST["cardname"];
+            $_SESSION["ccnumb"] = $_POST["cardnumber"];
             ?>
          
        </div>
