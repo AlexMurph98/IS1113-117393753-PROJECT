@@ -34,17 +34,34 @@ session_start();
                     }
                     
                 .content {
-                  width: 200px ;
+                  width: 350px ;
                   margin-left: auto ;
                   margin-right: auto ;
                   text-align: left;
                     }    
+                    
+                .row {
+                  display: -ms-flexbox; /* IE10 */
+                  display: flex;
+                  -ms-flex-wrap: wrap; /* IE10 */
+                  flex-wrap: wrap;
+                  margin: 0 -16px;
+                }
+                
+                .container {
+                  background-color: #f2f2f2;
+                  padding: 5px 20px 15px 20px;
+                  border: 1px solid lightgrey;
+                  border-radius: 3px;
+                }
         </style>
     </head>
     
     <body>
         <div class="content">
-        <h4>RECEIPT</h4>
+        <div class="row">
+        <div class="container">
+        <h4 style="text-align:center;">RECEIPT</h4>
                 
         
         <?php
@@ -66,9 +83,12 @@ session_start();
         <?php
         echo "Total: $" . $_SESSION["total"] . ".";
         ?>
-        <br/>
+        <br/> <br/>
         <a href="../homepage.html" class="buttonhome">Return Home</a> <button onclick="myPrint()" class="buttonprint">Print Receipt</button>
         </div>
+        </div>
+        </div>
+        
         
         <script>
         function myPrint() {
