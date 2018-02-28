@@ -12,6 +12,30 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
+         <script language="Javascript">
+             function isNumberKey(evt)
+            {
+                var charCode = (evt.which) ? evt.which : event.keyCode
+                if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+ 
+                return true;
+            }
+         </script>
+         
+         <script language="Javascript">
+             function alphaOnly(e) {
+                var code;
+                if (!e) var e = window.event;
+                if (e.keyCode) code = e.keyCode;
+                else if (e.which) code = e.which;
+                if ((code >= 48) && (code <= 57)) { return false; }
+                return true;
+                }
+         </script>
+        
+        
+        
         <style>
             .row {
                   display: -ms-flexbox; /* IE10 */
@@ -146,31 +170,31 @@ session_start();
           <div class="col-50">
             <h4>Billing Address</h4>
             <label for="fullname">Full Name</label>
-            <input type="text" id="fullname" name="fullname" placeholder="John M. Doe">
+            <input type="text" id="fullname" name="fullname" placeholder="John M. Doe" onkeypress="return alphaOnly(event);" maxlength="50">
             <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="john@example.com">
+            <input type="text" id="email" name="email" placeholder="john@example.com" maxlength="50">
             </div>
           
 
           <div class="col-50">
             <h4>Payment</h4>
             <label for="cname">Name on Card</label>
-            <input type="text" id="cname" name="cname" placeholder="John More Doe">
+            <input type="text" id="cname" name="cname" placeholder="John More Doe" onkeypress="return alphaOnly(event);" maxlength="50">
             <label for="ccnumb">Credit card number</label>
-            <input type="text" id="ccnumb" name="ccnumb" placeholder="1111-2222-3333-4444">
+            <input type="text" id="ccnumb" name="ccnumb" placeholder="1111-2222-3333-4444" onkeypress="return isNumberKey(event)" maxlength="16">
             <label for="expmonth">Exp Month</label>
-            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <input type="text" id="expmonth" name="expmonth" placeholder="September" onkeypress="return alphaOnly(event);" maxlength="9">
 
             <div class="row">
               <div class="col-50">
                 <label for="expyear">Exp Year</label>
-                <input type="text" id="expyear" name="expyear" placeholder="2018">
+                <input type="text" id="expyear" name="expyear" placeholder="2018" onkeypress="return isNumberKey(event)" maxlength="4">
               </div>
               <div class="col-50">
                 <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv" placeholder="352" maxlength="3">
+                <input type="text" id="cvv" name="cvv" placeholder="352" onkeypress="return isNumberKey(event)" maxlength="3">
                  <label for="user_pin">PIN</label>
-                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+                    <input type="password" id="user_pin" placeholder="Card PIN" onkeypress="return isNumberKey(event)" maxlength="4">
 
                 <br/> <br/>
               <input type="submit" id="btnPurchase" value="Continue to checkout" class="btn" disabled>
