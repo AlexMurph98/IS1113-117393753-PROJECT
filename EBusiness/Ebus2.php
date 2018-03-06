@@ -6,12 +6,14 @@ session_start();
 <html>
     <head>
           <title>Enter Details</title>
+          <!--linking stylesheet-->
          <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
          <meta charset="utf-8"/>
          <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
+         <!--Function for the text box to only allow numbers only-->
          <script language="Javascript">
              function isNumberKey(evt)
             {
@@ -23,6 +25,7 @@ session_start();
             }
          </script>
          
+         <!--Function for the text box to only allow letters only-->
          <script language="Javascript">
              function alphaOnly(e) {
                 var code;
@@ -34,7 +37,7 @@ session_start();
                 }
          </script>
         
-        
+        <!--Internal style sheet-->
         
         <style>
             .row {
@@ -136,6 +139,7 @@ session_start();
         <h4 class="subheading">Use The Navigation Bar Below For Easy Access.</h4>
         </div>
         <br/>
+        <!--This is the nav bar which is made using unordered lists-->
         <div class="navigation">
        <ul>
          <li><a href="../homepage.html">Home</a></li>
@@ -157,6 +161,7 @@ session_start();
          <li><a href="../AboutCloud.html">About Cloud</a></li>
        </ul>
        </div>
+               <!--Adding the content part of the page which is then wrapped using the row and container divs-->
        <div class="contentcvpages" style="color=black">
          <br/> <br/>
        <h2>Please enter your payment details</h2>
@@ -207,6 +212,7 @@ session_start();
           </div>
          </form>
          <br/>
+         <!--Button using validation function set on ebus2_val-->
          <button onClick="validateDetails()" class="btnvalidate">Validate</button>
         </div>
         

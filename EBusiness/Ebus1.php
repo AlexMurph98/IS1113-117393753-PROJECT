@@ -2,12 +2,14 @@
 <html>
     <head>
         <title>Select Product</title>
+        <!--Linking css file-->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
         <meta charset="utf-8"/>
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="calcost.js"></script>
         
+        <!--Internal Style sheet-->
         <style>
              .container {
                   background-color: #BEBEBE;
@@ -81,6 +83,7 @@
         <div class="headingEbus1">
         <h1 class="mainheading">EBusiness</h1>
         </div>
+        <!--This is the nav bar which is made using unordered lists-->
         <div class="navigation">
        <ul>
          <li><a href="../homepage.html">Home</a></li>
@@ -103,7 +106,7 @@
        </ul>
        </div>
        <br/> <br/>
-       
+               <!--Adding the content part of the page which is then wrapped using the row and container divs-->
        <div class="contentint">
             <div class="row">
         <div class="container">
@@ -112,7 +115,7 @@
                  <h4>Select a Product</h4>
             
             <br/>
-            
+            <!--Adding a form that posts values to ebus2-->
             <form method="POST" action="Ebus2.php">
                 
                 <label for="salesforce">
@@ -178,7 +181,7 @@
                 
             </form>
             
-            
+            <!--Adding buttons to give users options what to do next-->
             <button class="buttoncalc" onClick="calcSub()">Calculate Cost</button>
             <a class= "buttonclear" role="button" href="Ebus1.php">Clear Choice</a>
          </div>

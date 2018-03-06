@@ -6,6 +6,7 @@ session_start();
     <head>
         <title>RECEIPT</title>
         <meta charset="utf-8"/>
+        <!--Internal Style sheet-->
         <style>
             .buttonhome {
                 background-color: #4CAF50;
@@ -58,12 +59,13 @@ session_start();
     </head>
     
     <body>
+        <!--Adding the content part of the page which is then wrapped using the row and container divs-->
         <div class="contentint">
         <div class="row">
         <div class="container">
         <h4 style="text-align:center;">RECEIPT</h4>
                 
-        
+        <!--Transferring the variables taken from ebus1 and ebus2-->
         <?php
         echo "Customer Name: " . $_POST["fullname"] . ".";
         ?>
@@ -93,7 +95,7 @@ session_start();
         </div>
         </div>
         
-        
+        <!--Adding a function to allow a print option-->
         <script>
         function myPrint() {
             window.print();
