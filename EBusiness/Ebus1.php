@@ -72,7 +72,14 @@
                   margin-right: auto ;
                   text-align: left;
                   font-style: italic;
-                    }        
+                    } 
+                
+                 body {
+                background: url(http://freephotocourse.com/uploads/3/4/0/2/34026443/2738510_orig.jpg) no-repeat;
+                background-size: cover;
+                font-family: arial;
+                color: white;
+                }
 
         </style>
         
@@ -187,6 +194,7 @@
          </div>
         </div>
          </div>
+         <br/> <br/>
        <div class="footer">
          This was created by Alex Murphy, 117393753, BIS 1.
        </div>

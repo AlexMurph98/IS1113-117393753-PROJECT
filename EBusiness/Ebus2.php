@@ -92,7 +92,7 @@ session_start();
                 }
                 
             .btn {
-                  background-color: #4CAF50;
+                  background-color: grey;
                   color: white;
                   padding: 12px;
                   margin: 10px 0;
@@ -117,6 +117,13 @@ session_start();
                   border-radius: 3px;
                   cursor: pointer;
                   font-size: 17px;
+                }
+                
+                body {
+                background: url(http://freephotocourse.com/uploads/3/4/0/2/34026443/2738510_orig.jpg) no-repeat;
+                background-size: cover;
+                font-family: arial;
+                color: white;
                 }
                 
                 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
@@ -200,7 +207,7 @@ session_start();
                 <input type="text" id="cvv" name="cvv" placeholder="352" onkeypress="return isNumberKey(event)" maxlength="3">
                  <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" onkeypress="return isNumberKey(event)" maxlength="4">
-
+                <p style="text-align:center;">Please ensure that you validate the details to enable the proceed button</p>
                 <br/> <br/>
               <input type="submit" id="btnPurchase" value="Continue to checkout" class="btn" disabled>
              

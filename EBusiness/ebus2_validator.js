@@ -56,6 +56,7 @@ function validateDetails(){
     }
     else{
         enablebtnPurchase();
+        
     }
 }
 
