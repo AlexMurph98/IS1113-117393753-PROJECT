@@ -8,6 +8,72 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="calcost.js"></script>
         
+        <style>
+             .container {
+                  background-color: #BEBEBE;
+                  padding: 5px 20px 15px 20px;
+                  border: 1px solid lightgrey;
+                  border-radius: 3px;
+                }
+                
+            .row {
+                  display: -ms-flexbox; /* IE10 */
+                  display: flex;
+                  -ms-flex-wrap: wrap; /* IE10 */
+                  flex-wrap: wrap;
+                  margin: 0 -16px;
+                }    
+                
+                 .buttoncalc {
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                    }
+                    
+                .buttonclear {
+                background-color: black;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                    }
+                    
+                    .buttonadd {
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                width: 326px;
+                    }
+                    
+                .contentint {
+                  width: 350px ;
+                  margin-left: auto ;
+                  margin-right: auto ;
+                  text-align: left;
+                  font-style: italic;
+                    }        
+
+        </style>
+        
     </head>
     
     <body>
@@ -37,7 +103,11 @@
        </ul>
        </div>
        <br/> <br/>
-       <div class="contentcvpages">
+       
+       <div class="contentint">
+            <div class="row">
+        <div class="container">
+          
          
                  <h4>Select a Product</h4>
             
@@ -78,7 +148,7 @@
                 
                 <label for="subtotal">
                     Sub Total
-                    <input type="text" id="subtotal" value="0.00" readonly/>
+                    <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
                 </label>
                 
                 <br/> <br/>
@@ -104,17 +174,16 @@
                 
                 <br/> <br/>
                 
-                <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+                <button type="submit" class="buttonadd" id="btnProceed" disabled>Add to Shopping Cart</button>
                 
             </form>
             
-            <br/>
-            <button onClick="calcSub()">Calculate Cost</button>
-            <a role="button" href="Ebus1.php">Clear Choice</a>
-         
-         
-         
-       </div>
+            
+            <button class="buttoncalc" onClick="calcSub()">Calculate Cost</button>
+            <a class= "buttonclear" role="button" href="Ebus1.php">Clear Choice</a>
+         </div>
+        </div>
+         </div>
        <div class="footer">
          This was created by Alex Murphy, 117393753, BIS 1.
        </div>

@@ -33,7 +33,7 @@ session_start();
                 cursor: pointer;
                     }
                     
-                .content {
+                .contentint {
                   width: 350px ;
                   margin-left: auto ;
                   margin-right: auto ;
@@ -49,7 +49,7 @@ session_start();
                 }
                 
                 .container {
-                  background-color: #f2f2f2;
+                  background-color: #BEBEBE;
                   padding: 5px 20px 15px 20px;
                   border: 1px solid lightgrey;
                   border-radius: 3px;
@@ -58,18 +58,22 @@ session_start();
     </head>
     
     <body>
-        <div class="content">
+        <div class="contentint">
         <div class="row">
         <div class="container">
         <h4 style="text-align:center;">RECEIPT</h4>
                 
         
         <?php
-        echo "First Name: " . $_POST["fullname"] . ".";
+        echo "Customer Name: " . $_POST["fullname"] . ".";
         ?>
         <br/>
         <?php
         echo "E-mail: " . $_POST["email"] . ".";
+        ?>
+        <br/>
+        <?php
+        echo "Subtotal: $" . $_SESSION["subtotal"] . ".";
         ?>
         <br/>
         <?php

@@ -61,7 +61,7 @@ session_start();
                 }
                 
             .container {
-                  background-color: #f2f2f2;
+                  background-color: #BEBEBE;
                   padding: 5px 20px 15px 20px;
                   border: 1px solid lightgrey;
                   border-radius: 3px;
@@ -230,6 +230,7 @@ session_start();
             $_SESSION["ccnumb"] = $_POST["cardnumber"];
             $_SESSION["vat"] = $_POST["vat"];
             $_SESSION["discount"] = $_POST["discount"];
+            $_SESSION["subtotal"] = $_POST["subtotal"];
             ?>
          
        </div>
