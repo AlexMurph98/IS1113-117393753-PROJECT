@@ -169,7 +169,7 @@ session_start();
        </ul>
        </div>
                <!--Adding the content part of the page which is then wrapped using the row and container divs-->
-       <div class="contentcvpages" style="color=black">
+       <div class="contentcvpages">
          <br/> <br/>
        <h2>Please enter your payment details</h2>
         
@@ -247,12 +247,6 @@ session_start();
             ?>
          
        </div>
-        
-            
-            
-        </div>
-        
-        
         
        <div class="footer">
          This was created by Alex Murphy, 117393753, BIS 1.
