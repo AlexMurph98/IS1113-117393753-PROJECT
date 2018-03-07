@@ -134,7 +134,7 @@ session_start();
                   .col-25 {
                    margin-bottom: 20px;
                  }
-}
+            }
         </style>
     </head>
     <body>
