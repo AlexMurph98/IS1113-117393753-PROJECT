@@ -135,8 +135,6 @@ session_start();
                    margin-bottom: 20px;
                  }
 }
-
-
         </style>
     </head>
     <body>

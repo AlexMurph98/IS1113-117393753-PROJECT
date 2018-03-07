@@ -72,6 +72,7 @@
                   margin-right: auto ;
                   text-align: left;
                   font-style: italic;
+                  color:black;
                     } 
                 
                  body {
